@@ -20,7 +20,7 @@ func subString(s string, exact string) {
 
 }
 
-func flat(arr [][]int) []int {
+func flatanAr(arr [][]int) []int {
 	var result []int
 	for i := 0; i < len(arr); i++ {
 		for j := 0; j < len(arr[i]); j++ {
